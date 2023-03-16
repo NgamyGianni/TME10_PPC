@@ -1,0 +1,13 @@
+Nous avons 2 structures de données pour gérer les musiciens. Chaque musicien possède une instance de ces structures de données.
+
+Nous 2 Map : 
+	- {id : Int => state : Boolean} : cette structure stocke l'état de connection d'un musicien
+	- {id : Int => count : Int} : cette structure note le nombre de ping effectué par chaque musicien
+
+Avant chaque Ping (expliqué plus tard), la première Map est remise à son état initial. 
+
+Chaque 100 ms, tous les musiciens connectés effectuent un ping, ils envoient leurs ids à tous les musiciens (dont eux-mêmes) pour signifier leur présence et mettre à jour les structures de données. Alors, celui qui ne ping pas est considéré comme déconnecté.
+
+Chaque 1800 ms (durée d'une mesure), tous les musiciens connectés effectuent un WarmUp qui vérifie la présence d'au moins un autre musicien et désigne le chef.
+
+Le WarmUp va élir le chef d'orchestre qui est le musicien connecté avec le plus grand count (voir la deuxième Map). Et toujours dans le WarmUp, le chef désigné lancera le processus qui permet à un autre musicien de jouer la note.

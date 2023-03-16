@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run 1, Some(1c0d2cd8-9a46-4a42-b784-de35316b3fd7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/gianningamy/Desktop/ppc/tme10_code/target/scala-2.11/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gianningamy/Desktop/ppc/tme10_code/src/main/scala/Provider.scala:68:13: not found: value musicien[0m
+[0m[[0m[31merror[0m] [0m[0m            musicien ! measure[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 13 mars 2023 à 11:21:48[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

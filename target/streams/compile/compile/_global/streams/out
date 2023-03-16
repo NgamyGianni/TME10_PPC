@@ -1,0 +1,6 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/gianningamy/Desktop/ppc/tme10_code/src/main/scala/Musicien.scala:89:50: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: None[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    val chef = filteredPings.find(_._2 == maxCount) match {case Some((k, v)) => k}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were two feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

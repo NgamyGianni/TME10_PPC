@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run 0, Some(977f777a-43a0-41ea-9852-4999042cdb75), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/gianningamy/Desktop/ppc/tme10_code/target/scala-2.11/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/gianningamy/Desktop/ppc/tme10_code/src/main/scala/Musicien.scala:88:50: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: None[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    val chef = filteredPings.find(_._2 == maxCount) match {case Some((k, v)) => k}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were two feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 8 s, completed 14 mars 2023 à 15:13:12[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
