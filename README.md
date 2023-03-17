@@ -1,5 +1,5 @@
 # TME10_PPC
-Le Jeu de Mozart distribué en Akka (Scala, MAS)
+Le Jeu de Mozart distribué en Akka (Scala, Actor Model)
 
 1) Schema_TME10.pdf : Architecture implémentée.
 
